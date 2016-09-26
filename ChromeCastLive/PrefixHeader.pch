@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  ChromeCastLive
+//
+//  Created by David.Dai on 16/9/18.
+//  Copyright © 2016年 David.Dai. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define MAS_SHORTHAND
+#import "Masonry.h"
+#import <GoogleCast/GoogleCast.h>
+#import <GoogleCastRemoteDisplay/GoogleCastRemoteDisplay.h>
+#import "TheAmazingAudioEngine.h"
+#import "NotificationMacro.h"
+
+#endif /* PrefixHeader_pch */

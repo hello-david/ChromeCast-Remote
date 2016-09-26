@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8181EA756B98CD5FFC30DA /* libPods-ChromeCastLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D1AADC03C655E8C612FAB5 /* libPods-ChromeCastLive.a */; };
+		63264ADB1D8E915900F4298A /* CastDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63264ADA1D8E915900F4298A /* CastDeviceController.m */; };
+		635B10551D90D860004BA16B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635B10501D90D83F004BA16B /* AVFoundation.framework */; };
+		635B105A1D90D8C0004BA16B /* CastDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B10591D90D8C0004BA16B /* CastDeviceTableViewController.m */; };
+		635B105D1D90D8E1004BA16B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B105C1D90D8E1004BA16B /* RootViewController.m */; };
+		635B106B1D912790004BA16B /* CastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B106A1D912790004BA16B /* CastView.m */; };
+		635B10771D914346004BA16B /* CCAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B10761D914346004BA16B /* CCAudioCapture.m */; };
+		6364F7E91D938209001B9CD4 /* CastFrameworkAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6364F7E81D938209001B9CD4 /* CastFrameworkAssets.xcassets */; };
+		6370A1161D92130300504A4E /* CCAmazingAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6370A1151D92130300504A4E /* CCAmazingAudioCapture.m */; };
+		6370A11C1D92317B00504A4E /* sound_new.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6370A11B1D92317B00504A4E /* sound_new.mp3 */; };
+		6372DC221D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372DC211D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.m */; };
+		637A039E1D8E721800879E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A039D1D8E721800879E98 /* main.m */; };
+		637A03A11D8E721800879E98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A03A01D8E721800879E98 /* AppDelegate.m */; };
+		637A03A71D8E721800879E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637A03A51D8E721800879E98 /* Main.storyboard */; };
+		637A03A91D8E721800879E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637A03A81D8E721800879E98 /* Assets.xcassets */; };
+		637A03AC1D8E721800879E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637A03AA1D8E721800879E98 /* LaunchScreen.storyboard */; };
+		637A03B71D8E721800879E98 /* ChromeCastLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A03B61D8E721800879E98 /* ChromeCastLiveTests.m */; };
+		637A03C21D8E721800879E98 /* ChromeCastLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A03C11D8E721800879E98 /* ChromeCastLiveUITests.m */; };
+		63FA061C1D93BCAD00268C8D /* CCAudioUnitCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FA061B1D93BCAD00268C8D /* CCAudioUnitCapture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637A03B31D8E721800879E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A03911D8E721800879E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A03981D8E721800879E98;
+			remoteInfo = ChromeCastLive;
+		};
+		637A03BE1D8E721800879E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A03911D8E721800879E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A03981D8E721800879E98;
+			remoteInfo = ChromeCastLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52D1AADC03C655E8C612FAB5 /* libPods-ChromeCastLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChromeCastLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63264AD91D8E915900F4298A /* CastDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastDeviceController.h; sourceTree = "<group>"; };
+		63264ADA1D8E915900F4298A /* CastDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastDeviceController.m; sourceTree = "<group>"; };
+		632D89421D8E7438009806A8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		635B10501D90D83F004BA16B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		635B10561D90D872004BA16B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		635B10581D90D8C0004BA16B /* CastDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastDeviceTableViewController.h; sourceTree = "<group>"; };
+		635B10591D90D8C0004BA16B /* CastDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastDeviceTableViewController.m; sourceTree = "<group>"; };
+		635B105B1D90D8E1004BA16B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		635B105C1D90D8E1004BA16B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		635B10621D9112E6004BA16B /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		635B10691D912790004BA16B /* CastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastView.h; sourceTree = "<group>"; };
+		635B106A1D912790004BA16B /* CastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastView.m; sourceTree = "<group>"; };
+		635B10751D914346004BA16B /* CCAudioCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAudioCapture.h; sourceTree = "<group>"; };
+		635B10761D914346004BA16B /* CCAudioCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAudioCapture.m; sourceTree = "<group>"; };
+		6364F7E81D938209001B9CD4 /* CastFrameworkAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CastFrameworkAssets.xcassets; sourceTree = "<group>"; };
+		6370A1141D92130300504A4E /* CCAmazingAudioCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAmazingAudioCapture.h; sourceTree = "<group>"; };
+		6370A1151D92130300504A4E /* CCAmazingAudioCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAmazingAudioCapture.m; sourceTree = "<group>"; };
+		6370A11B1D92317B00504A4E /* sound_new.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_new.mp3; sourceTree = "<group>"; };
+		6372DC201D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHLSCaptioningServer.h; sourceTree = "<group>"; };
+		6372DC211D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHLSCaptioningServer.m; sourceTree = "<group>"; };
+		637A03991D8E721800879E98 /* ChromeCastLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromeCastLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A039D1D8E721800879E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637A039F1D8E721800879E98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		637A03A01D8E721800879E98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637A03A61D8E721800879E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637A03A81D8E721800879E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637A03AB1D8E721800879E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637A03AD1D8E721800879E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A03B21D8E721800879E98 /* ChromeCastLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromeCastLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A03B61D8E721800879E98 /* ChromeCastLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromeCastLiveTests.m; sourceTree = "<group>"; };
+		637A03B81D8E721800879E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A03BD1D8E721800879E98 /* ChromeCastLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromeCastLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A03C11D8E721800879E98 /* ChromeCastLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromeCastLiveUITests.m; sourceTree = "<group>"; };
+		637A03C31D8E721800879E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FA061A1D93BCAD00268C8D /* CCAudioUnitCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAudioUnitCapture.h; sourceTree = "<group>"; };
+		63FA061B1D93BCAD00268C8D /* CCAudioUnitCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAudioUnitCapture.m; sourceTree = "<group>"; };
+		9A313DB39DEDEAD7C00F947A /* Pods-ChromeCastLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChromeCastLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChromeCastLive/Pods-ChromeCastLive.debug.xcconfig"; sourceTree = "<group>"; };
+		E8CD2A79ED6135D061B2CCD7 /* Pods-ChromeCastLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChromeCastLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChromeCastLive/Pods-ChromeCastLive.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637A03961D8E721800879E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635B10551D90D860004BA16B /* AVFoundation.framework in Frameworks */,
+				4C8181EA756B98CD5FFC30DA /* libPods-ChromeCastLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A03AF1D8E721800879E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A03BA1D8E721800879E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635B104F1D90D12E004BA16B /* CastRemoteDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				6370A1141D92130300504A4E /* CCAmazingAudioCapture.h */,
+				6370A1151D92130300504A4E /* CCAmazingAudioCapture.m */,
+				635B10751D914346004BA16B /* CCAudioCapture.h */,
+				635B10761D914346004BA16B /* CCAudioCapture.m */,
+				63FA061A1D93BCAD00268C8D /* CCAudioUnitCapture.h */,
+				63FA061B1D93BCAD00268C8D /* CCAudioUnitCapture.m */,
+				63264AD91D8E915900F4298A /* CastDeviceController.h */,
+				63264ADA1D8E915900F4298A /* CastDeviceController.m */,
+				635B10581D90D8C0004BA16B /* CastDeviceTableViewController.h */,
+				635B10591D90D8C0004BA16B /* CastDeviceTableViewController.m */,
+				635B10691D912790004BA16B /* CastView.h */,
+				635B106A1D912790004BA16B /* CastView.m */,
+			);
+			name = CastRemoteDisplay;
+			sourceTree = "<group>";
+		};
+		637A03901D8E721800879E98 = {
+			isa = PBXGroup;
+			children = (
+				637A039B1D8E721800879E98 /* ChromeCastLive */,
+				637A03B51D8E721800879E98 /* ChromeCastLiveTests */,
+				637A03C01D8E721800879E98 /* ChromeCastLiveUITests */,
+				637A039A1D8E721800879E98 /* Products */,
+				BB07119AE0EC558908DD9676 /* Pods */,
+				F2BA6A6DF41E1232D71EA57B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		637A039A1D8E721800879E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637A03991D8E721800879E98 /* ChromeCastLive.app */,
+				637A03B21D8E721800879E98 /* ChromeCastLiveTests.xctest */,
+				637A03BD1D8E721800879E98 /* ChromeCastLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637A039B1D8E721800879E98 /* ChromeCastLive */ = {
+			isa = PBXGroup;
+			children = (
+				6370A11B1D92317B00504A4E /* sound_new.mp3 */,
+				635B104F1D90D12E004BA16B /* CastRemoteDisplay */,
+				6372DC201D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.h */,
+				6372DC211D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.m */,
+				637A039F1D8E721800879E98 /* AppDelegate.h */,
+				637A03A01D8E721800879E98 /* AppDelegate.m */,
+				635B105B1D90D8E1004BA16B /* RootViewController.h */,
+				635B105C1D90D8E1004BA16B /* RootViewController.m */,
+				637A039C1D8E721800879E98 /* Supporting Files */,
+			);
+			path = ChromeCastLive;
+			sourceTree = "<group>";
+		};
+		637A039C1D8E721800879E98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635B10621D9112E6004BA16B /* NotificationMacro.h */,
+				637A03A51D8E721800879E98 /* Main.storyboard */,
+				6364F7E81D938209001B9CD4 /* CastFrameworkAssets.xcassets */,
+				637A03A81D8E721800879E98 /* Assets.xcassets */,
+				637A03AA1D8E721800879E98 /* LaunchScreen.storyboard */,
+				637A03AD1D8E721800879E98 /* Info.plist */,
+				637A039D1D8E721800879E98 /* main.m */,
+				632D89421D8E7438009806A8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637A03B51D8E721800879E98 /* ChromeCastLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				637A03B61D8E721800879E98 /* ChromeCastLiveTests.m */,
+				637A03B81D8E721800879E98 /* Info.plist */,
+			);
+			path = ChromeCastLiveTests;
+			sourceTree = "<group>";
+		};
+		637A03C01D8E721800879E98 /* ChromeCastLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637A03C11D8E721800879E98 /* ChromeCastLiveUITests.m */,
+				637A03C31D8E721800879E98 /* Info.plist */,
+			);
+			path = ChromeCastLiveUITests;
+			sourceTree = "<group>";
+		};
+		BB07119AE0EC558908DD9676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A313DB39DEDEAD7C00F947A /* Pods-ChromeCastLive.debug.xcconfig */,
+				E8CD2A79ED6135D061B2CCD7 /* Pods-ChromeCastLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2BA6A6DF41E1232D71EA57B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635B10561D90D872004BA16B /* QuartzCore.framework */,
+				635B10501D90D83F004BA16B /* AVFoundation.framework */,
+				52D1AADC03C655E8C612FAB5 /* libPods-ChromeCastLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637A03981D8E721800879E98 /* ChromeCastLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A03C61D8E721800879E98 /* Build configuration list for PBXNativeTarget "ChromeCastLive" */;
+			buildPhases = (
+				C8C3DB44DEFF91622CDBE4FC /* Check Pods Manifest.lock */,
+				637A03951D8E721800879E98 /* Sources */,
+				637A03961D8E721800879E98 /* Frameworks */,
+				637A03971D8E721800879E98 /* Resources */,
+				1DE0CC965FA9C52D82C951B0 /* Embed Pods Frameworks */,
+				C84D32113A440A47A49156CE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromeCastLive;
+			productName = ChromeCastLive;
+			productReference = 637A03991D8E721800879E98 /* ChromeCastLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637A03B11D8E721800879E98 /* ChromeCastLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A03C91D8E721800879E98 /* Build configuration list for PBXNativeTarget "ChromeCastLiveTests" */;
+			buildPhases = (
+				637A03AE1D8E721800879E98 /* Sources */,
+				637A03AF1D8E721800879E98 /* Frameworks */,
+				637A03B01D8E721800879E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A03B41D8E721800879E98 /* PBXTargetDependency */,
+			);
+			name = ChromeCastLiveTests;
+			productName = ChromeCastLiveTests;
+			productReference = 637A03B21D8E721800879E98 /* ChromeCastLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637A03BC1D8E721800879E98 /* ChromeCastLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A03CC1D8E721800879E98 /* Build configuration list for PBXNativeTarget "ChromeCastLiveUITests" */;
+			buildPhases = (
+				637A03B91D8E721800879E98 /* Sources */,
+				637A03BA1D8E721800879E98 /* Frameworks */,
+				637A03BB1D8E721800879E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A03BF1D8E721800879E98 /* PBXTargetDependency */,
+			);
+			name = ChromeCastLiveUITests;
+			productName = ChromeCastLiveUITests;
+			productReference = 637A03BD1D8E721800879E98 /* ChromeCastLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637A03911D8E721800879E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = David.Dai;
+				TargetAttributes = {
+					637A03981D8E721800879E98 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TVL2JAE584;
+						ProvisioningStyle = Automatic;
+					};
+					637A03B11D8E721800879E98 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637A03981D8E721800879E98;
+					};
+					637A03BC1D8E721800879E98 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637A03981D8E721800879E98;
+					};
+				};
+			};
+			buildConfigurationList = 637A03941D8E721800879E98 /* Build configuration list for PBXProject "ChromeCastLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637A03901D8E721800879E98;
+			productRefGroup = 637A039A1D8E721800879E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637A03981D8E721800879E98 /* ChromeCastLive */,
+				637A03B11D8E721800879E98 /* ChromeCastLiveTests */,
+				637A03BC1D8E721800879E98 /* ChromeCastLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637A03971D8E721800879E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A03AC1D8E721800879E98 /* LaunchScreen.storyboard in Resources */,
+				6364F7E91D938209001B9CD4 /* CastFrameworkAssets.xcassets in Resources */,
+				6370A11C1D92317B00504A4E /* sound_new.mp3 in Resources */,
+				637A03A91D8E721800879E98 /* Assets.xcassets in Resources */,
+				637A03A71D8E721800879E98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A03B01D8E721800879E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A03BB1D8E721800879E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE0CC965FA9C52D82C951B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChromeCastLive/Pods-ChromeCastLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84D32113A440A47A49156CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChromeCastLive/Pods-ChromeCastLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C3DB44DEFF91622CDBE4FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637A03951D8E721800879E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6372DC221D8F8CFE00A9DFE4 /* ACHLSCaptioningServer.m in Sources */,
+				635B105D1D90D8E1004BA16B /* RootViewController.m in Sources */,
+				63264ADB1D8E915900F4298A /* CastDeviceController.m in Sources */,
+				635B106B1D912790004BA16B /* CastView.m in Sources */,
+				637A03A11D8E721800879E98 /* AppDelegate.m in Sources */,
+				63FA061C1D93BCAD00268C8D /* CCAudioUnitCapture.m in Sources */,
+				635B105A1D90D8C0004BA16B /* CastDeviceTableViewController.m in Sources */,
+				637A039E1D8E721800879E98 /* main.m in Sources */,
+				6370A1161D92130300504A4E /* CCAmazingAudioCapture.m in Sources */,
+				635B10771D914346004BA16B /* CCAudioCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A03AE1D8E721800879E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A03B71D8E721800879E98 /* ChromeCastLiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A03B91D8E721800879E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A03C21D8E721800879E98 /* ChromeCastLiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637A03B41D8E721800879E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A03981D8E721800879E98 /* ChromeCastLive */;
+			targetProxy = 637A03B31D8E721800879E98 /* PBXContainerItemProxy */;
+		};
+		637A03BF1D8E721800879E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A03981D8E721800879E98 /* ChromeCastLive */;
+			targetProxy = 637A03BE1D8E721800879E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		637A03A51D8E721800879E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637A03A61D8E721800879E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637A03AA1D8E721800879E98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637A03AB1D8E721800879E98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637A03C41D8E721800879E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChromeCastLive/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		637A03C51D8E721800879E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChromeCastLive/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637A03C71D8E721800879E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A313DB39DEDEAD7C00F947A /* Pods-ChromeCastLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TVL2JAE584;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = ChromeCastLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.chromecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		637A03C81D8E721800879E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CD2A79ED6135D061B2CCD7 /* Pods-ChromeCastLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TVL2JAE584;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = ChromeCastLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.chromecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		637A03CA1D8E721800879E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChromeCastLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.ChromeCastLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChromeCastLive.app/ChromeCastLive";
+			};
+			name = Debug;
+		};
+		637A03CB1D8E721800879E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChromeCastLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.ChromeCastLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChromeCastLive.app/ChromeCastLive";
+			};
+			name = Release;
+		};
+		637A03CD1D8E721800879E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChromeCastLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.ChromeCastLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChromeCastLive;
+			};
+			name = Debug;
+		};
+		637A03CE1D8E721800879E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChromeCastLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.ChromeCastLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChromeCastLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637A03941D8E721800879E98 /* Build configuration list for PBXProject "ChromeCastLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A03C41D8E721800879E98 /* Debug */,
+				637A03C51D8E721800879E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A03C61D8E721800879E98 /* Build configuration list for PBXNativeTarget "ChromeCastLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A03C71D8E721800879E98 /* Debug */,
+				637A03C81D8E721800879E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A03C91D8E721800879E98 /* Build configuration list for PBXNativeTarget "ChromeCastLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A03CA1D8E721800879E98 /* Debug */,
+				637A03CB1D8E721800879E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A03CC1D8E721800879E98 /* Build configuration list for PBXNativeTarget "ChromeCastLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A03CD1D8E721800879E98 /* Debug */,
+				637A03CE1D8E721800879E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637A03911D8E721800879E98 /* Project object */;
+}
